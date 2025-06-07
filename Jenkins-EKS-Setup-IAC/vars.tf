@@ -1,3 +1,8 @@
+variable "aws_region" {
+  description = "AWS region to deploy resources"
+  type        = string
+}
+
 variable "vpc_cidr_block" {}
 variable "vpc_name" {}
 variable "subnet_cidrs" {
@@ -31,9 +36,5 @@ variable "instance_types" {
 }
 variable "disk_size" {
   type = number
-}
-variable "aws_region" {
-  description = "AWS region to deploy resources"
-  type        = string
 }
 
