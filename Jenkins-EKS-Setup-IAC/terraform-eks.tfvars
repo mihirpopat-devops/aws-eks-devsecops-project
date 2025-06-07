@@ -18,4 +18,5 @@ max_size          = 3
 ami_type          = "AL2_x86_64"
 instance_types    = ["t3.medium"]
 disk_size         = 20
+aws_region = "us-east-2"
 

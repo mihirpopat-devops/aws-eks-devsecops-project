@@ -32,4 +32,8 @@ variable "instance_types" {
 variable "disk_size" {
   type = number
 }
+variable "aws_region" {
+  description = "AWS region to deploy resources"
+  type        = string
+}
 
