@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: tetris
-        image: mihirpopat73/myappv1:9
+        image: mihirpopat73/myappv1:10
         ports:
         - containerPort: 3000
 ---
